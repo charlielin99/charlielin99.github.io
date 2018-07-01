@@ -1,0 +1,123 @@
+html {
+  height: 100%;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.loader{
+  height: 10px;
+  background-color: #000;
+  position: absolute;
+}
+
+.content{
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  display: none;
+}
+
+.neuron {
+  position: absolute;
+  top: calc(35% - 32px);
+  left: calc(50% - 32px);
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  perspective: 800px;
+}
+
+.electron {
+  position: absolute;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;  
+}
+
+.electron.one {
+  left: 0%;
+  top: 0%;
+  animation: rotate-one 1s linear 3.5;
+  border-bottom: 5px solid;
+}
+
+.electron.two {
+  right: 0%;
+  top: 0%;
+  animation: rotate-two 1s linear 3.5;
+  border-right: 5px solid;
+}
+
+.electron.three {
+  right: 0%;
+  bottom: 0%;
+  animation: rotate-three 1s linear 3.5;
+  border-top: 5px solid;
+}
+
+@keyframes rotate-one {
+  0% {
+    transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+  }
+}
+
+@keyframes rotate-two {
+  0% {
+    transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+  }
+}
+
+@keyframes rotate-three {
+  0% {
+    transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+  }
+}
+
+/*Parallax Scroll*/
+
+header {
+  overflow: hidden;
+  margin-bottom: 1rem;
+  padding-bottom: 2em;
+}
+
+header img {
+  width: 250%;
+  max-width: 300%;
+  min-width: 100%;
+  position: relative;
+  top: 0;
+  left: 50%;
+  right: 50%
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+main {
+  margin-top: 10px;
+  position: relative;
+}
+
+@media (min-width: 600px) {
+	header { padding-bottom: 50%;}
+}
+
+@media (min-width: 700px) {	
+	header { padding-bottom: 20px;} 
+}
