@@ -97,6 +97,7 @@ header {
 }
 
 header img {
+  opacity: 0.75;
   width: 250%;
   max-width: 300%;
   min-width: 100%;
@@ -120,4 +121,14 @@ main {
 
 @media (min-width: 700px) {	
 	header { padding-bottom: 20px;} 
+}
+
+
+/*Content*/
+
+.name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
