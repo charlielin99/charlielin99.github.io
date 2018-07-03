@@ -1,17 +1,15 @@
 .projects {
-  margin: 50 auto;
-  width: 920px;
+  margin: 50 0;
   font-family: 'Nunito', sans-serif;
 }
 
 .content {
   width: 33.33%;
-  margin: 0 auto;
-display:inline-block;
-position: relative;
+  margin: 0 80;
   position: relative;
-    height:40vh;
-    max-width:300px;
+  position: relative;
+  height:40vh;
+  max-width:300px;
 }
 
 .circle {
@@ -24,6 +22,14 @@ position: relative;
   transform: translateY(-50%);
   transition: all 0.5s;
   cursor: pointer;
+}
+
+.desc{
+  position: absolute;
+  left: 300;
+  margin: auto;
+  top: 50%;
+  width: 800px;
 }
 
 .circle img {
