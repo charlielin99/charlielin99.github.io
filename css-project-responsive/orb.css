@@ -1,0 +1,158 @@
+.projects {
+  margin: 130px 10px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.content {
+  width: 33.33%;
+  position: relative;
+  height:43vh;
+  max-width:300px;
+}
+
+.circle {
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 50%;
+  width: 200px;
+  transform: translateY(-50%);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.desc{
+  position: absolute;
+  left: 235px;
+  margin: auto;
+  bottom: 260px;
+  width: 800px;
+}
+
+.circle img {
+  position: absolute;
+}
+
+.one img{
+    top: -50;
+    width: 200%;
+}
+
+.two img{
+    top: -1;
+    left: -90;
+    width: 180%;
+}
+
+.three img{
+    bottom:0;
+    left: -105;
+    width: 179%;
+}
+
+.four img{
+    top: 1;
+    left: -1;
+    width: 180%;
+}
+
+.five img{
+    bottom:0;
+    left: -90;
+    width: 300%;
+}
+
+.six img{
+    bottom:0;
+    width: 100%;
+}
+
+.seven img{
+    bottom:0;
+    left: -190;
+    width: 230%;
+}
+
+.eight img{
+    bottom:-24;
+    left: -130;
+    width: 200%;
+}
+
+.nine img{
+    bottom:0;
+    left: -224;
+    width: 220%;
+}
+
+.circle:hover .circle_shine {
+  top: 330px;
+  left: -200px;
+}
+.circle_shine {
+  background: white;
+  width: 600px;
+  transition: 0.3s;
+  height: 200px;
+  opacity: 0.2;
+  top: -10px;
+  left: -90px;
+  transform: rotate(45deg);
+  position: absolute;
+  z-index: 2;
+}
+.circle:hover h2, .circle:hover h3 {
+  opacity: 1;
+  top: -36px;
+}
+.circle:hover .content_shadow {
+  transform: scale(1.1);
+  top: -22px;
+}
+.circle:hover h3 {
+  transition: all 0.2s 0.04s;
+}
+.circle:hover h2 {
+  transition: all 0.2s;
+}
+
+.circle_title {
+  text-align: center;
+}
+.circle_title h2, .circle_title h3 {
+  opacity: 0;
+  color: #4a7479;
+  margin: 0;
+  transition: all 0.2s 0.04s;
+  position: relative;
+  top: -10px;
+}
+.circle_title h3 {
+  transition: all 0.2s;
+  color: #b0d5d6;
+  font-size: 15px;
+}
+.circle_inner {
+  border-radius: 200px;
+  background: #b0d5d6;
+  overflow: hidden;
+  margin: auto;
+  width: 200px;
+  z-index: 1;
+  transition: all 0.3s;
+  height: 200px;
+  position: relative;
+}
+.circle_inner:hover {
+  transform: scale(1.1);
+}
+.content_shadow {
+  width: 200px;
+  box-shadow: 0px 31px 19px -2px #e0e8f9;
+  height: 20px;
+  border-radius: 70%;
+  position: relative;
+  top: -44px;
+  transition: all 0.3s;
+  z-index: 0;
+}
