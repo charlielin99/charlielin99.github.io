@@ -1,0 +1,122 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 1025px) and (max-width: 1920px) { 
+  
+#m2 {
+	margin: auto !important;
+    margin-left: 0px !important;
+    width: 100% !important;
+}
+
+.mob {
+  display: none !important;
+  visibility: hidden !important;
+}
+    
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+}/* Medium Layout: 1280px. */
+@media only screen and (min-width: 801px) and (max-width: 1024px) { 
+  
+#m2 {
+	margin: auto !important;
+    margin-left: 0px !important;
+    width: 107% !important;
+}
+
+.mob {
+  display: none !important;
+  visibility: hidden !important;
+}
+    
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 1921px) and (max-width: 2560px) { 
+  .name {
+    left: 41% !important;
+}
+.row.mbg {
+    margin:  0;
+}
+#m2 {
+    margin-left: 0px !important;
+    width: 100% !important;
+	margin: auto !important;
+}
+    
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (min-width: 2561px) and (max-width: 2880px) { 
+ .name {
+    left: 42% !important;
+}
+.row.mbg {
+    margin:  0;
+}
+#m2 {
+	margin: auto !important;
+    margin-left: 0px !important;
+    width: 100% !important;
+}
+    
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (min-width: 601px) and (max-width: 800px) { 
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    width: 61% !important;
+}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 280px) and (max-width: 800px) { 
+
+.name {
+     top: 20% !important;
+    left: 20% !important;
+}
+.ico {
+     top: 36% !important;
+}
+#cssmenu {
+  background-color: #333 !important;
+}
+#m2 {
+    width: auto !important;
+    margin-left: 0px !important;
+}
+.row.mbg {
+    margin:  0;
+}
+.mob {
+	display: block !important;
+	visibility: visible !important;
+}
+.menu-pc {
+	display: none !important;
+	visibility: hidden !important;
+}
+
+.col-md-12.mbg {
+    height: 52px;
+}
+}
