@@ -1,15 +1,14 @@
-
 //PARALAX ZOOM OUT
-$(window).scroll(function() {  
-  $(".parallax img").css({
-    width: (250 - $(window).scrollTop()/1.5)  + "%",  
-    top: -($(window).scrollTop()/10)  + "%",
-  });    
-});   
+$(window).scroll(function() {
+    $(".parallax img").css({
+        width: (250 - $(window).scrollTop() / 1.5) + "%",
+        top: -($(window).scrollTop() / 10) + "%",
+    });
+});
 
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
- function collapseNavbar() {
+function collapseNavbar() {
     if ($(".navbar").offset().top > 50) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
     } else {
@@ -17,15 +16,10 @@ $(window).scroll(function() {
     }
 }
 $(window).scroll(collapseNavbar);
-$(document).ready(collapseNavbar); 
+$(document).ready(collapseNavbar);
 
- 
- 
- 
- 
- 
- 
- $(function() {
+
+$(function() {
     $('body').on('click', '.page-scroll a', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
@@ -34,7 +28,6 @@ $(document).ready(collapseNavbar);
         event.preventDefault();
     });
 });
-
 
 
 
@@ -47,13 +40,13 @@ $('.navbar-collapse ul li a').click(function() {
 // Bouncing arrow bottom of full screen
 // Different arrow choices from Font Awesome
 // Fades away as you scroll down
- $(window).scroll(function(){
-    $(".arrow").css("opacity", 1 - $(window).scrollTop() / 250); 
-  //250 is fade pixels
-  });
+$(window).scroll(function() {
+    $(".arrow").css("opacity", 1 - $(window).scrollTop() / 250);
+    //250 is fade pixels
+});
 
-  
- 
+
+
 // Highlight the top nav as scrolling occurs
 $('body').scrollspy({
     target: '.navbar-fixed-top'
@@ -61,23 +54,19 @@ $('body').scrollspy({
 
 
 
-  $(function() {
-  // This will select everything with the class smoothScroll
-  // This should prevent problems with carousel, scrollspy, etc...
-  $('.smoothScroll').click(function() {
-    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 1500); // The number here represents the speed of the scroll in milliseconds
-        return false;
-      }
-    }
-  });
-});  
-
-
-
-
+$(function() {
+    // This will select everything with the class smoothScroll
+    // This should prevent problems with carousel, scrollspy, etc...
+    $('.smoothScroll').click(function() {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+                $('html,body').animate({
+                    scrollTop: target.offset().top
+                }, 1500); // The number here represents the speed of the scroll in milliseconds
+                return false;
+            }
+        }
+    });
+});
