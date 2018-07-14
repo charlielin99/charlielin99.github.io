@@ -359,14 +359,14 @@ body{
      transition:0.3s;
 }
  .my-profile-img {
-     background-image: url(./assets/images/A.jpg);
+     background-image: url(./assets/images/Charlie.jpg);
      background-size: cover;
      background-position: center top;
-     height: 320px;
-     width: 320px;
+     height: 370px;
+     width: 370px;
      border-radius: 50%;
      display: inline-flex;
-     margin-top: 55px;
+     margin-top: 18px;
 }
  .mine p {
      font-size: 1.3em;
