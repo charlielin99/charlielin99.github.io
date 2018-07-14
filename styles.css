@@ -262,7 +262,7 @@ body{
 }
  .circle_title h2, .circle_title h3 {
      opacity: 0;
-     color: #4a7479;
+     color: #1A2980;
      margin: 0;
      transition: all 0.2s 0.04s;
      position: relative;
@@ -270,7 +270,7 @@ body{
 }
  .circle_title h3 {
      transition: all 0.2s;
-     color: #b0d5d6;
+     color: #26D0CE;
      font-size: 15px;
 }
  .circle_inner {
@@ -487,4 +487,18 @@ body{
  nav.navbar.navbar-default.nav-tr {
      background-color: #333 !important;
      border-color: transparent !important;
+}
+.techdisplay{
+	font-family:'Alegreya Sans', sans-serif;
+	font-size: 1.1em;
+}
+.techbold{
+	font-weight: bold;
+}
+h2{
+	font-size: 24px;
+}
+.keycolor{
+	color: #1A2980;
+	text-decoration: underline;
 }
