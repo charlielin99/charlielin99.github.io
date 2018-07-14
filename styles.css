@@ -177,55 +177,55 @@ body{
  .circle img {
 }
  .circle_inner.ione {
-     background-image: url(./assets/images/iKXYzbg.jpg);
+     background-image: url(./assets/images/City.jpg);
      background-size: cover;
-     background-position: center top;
+     background-position: left top;
      background-repeat: no-repeat;
 }
  .circle_inner.itwo {
-     background-image: url(./assets/images/izW5RpP.jpg);
+     background-image: url(./assets/images/Phorm.jpg);
      background-size: cover;
      background-position: center top;
      background-repeat: no-repeat;
 }
  .circle_inner.ithree {
-     background-image: url(./assets/images/cZ9cu40.jpg);
+     background-image: url(./assets/images/Tetris.jpg);
      background-size: cover;
      background-position: center top;
      background-repeat: no-repeat;
 }
  .circle_inner.ifour {
-     background-image: url(./assets/images/Screenshot3.png);
+     background-image: url(./assets/images/Jobalytics.png);
      background-size: cover;
-     background-position: center top;
+     background-position: left top;
      background-repeat: no-repeat;
 }
  .circle_inner.ifive {
-     background-image: url(./assets/images/CY6xwLA.jpg);
+     background-image: url(./assets/images/Neural.jpg);
      background-size: cover;
-     background-position: center top;
+     background-position: left top;
      background-repeat: no-repeat;
 }
  .circle_inner.isix {
-     background-image: url(./assets/images/GtrFUXE.png);
+     background-image: url(./assets/images/Chatserv.png);
      background-size: cover;
      background-position: center top;
      background-repeat: no-repeat;
 }
  .iseven {
-     background-image: url(./assets/images/lY3eg7w.jpg);
+     background-image: url(./assets/images/Chem.jpg);
      background-size: cover;
-     background-position: center top;
+     background-position: left top;
      background-repeat: no-repeat;
 }
  .ieight {
-     background-image: url(./assets/images/jVjW9N9.jpg);
+     background-image: url(./assets/images/Ship.jpg);
      background-size: cover;
      background-position: center top;
      background-repeat: no-repeat;
 }
  .inine {
-     background-image: url(./assets/images/wOIlN5W.jpg);
+     background-image: url(./assets/images/A.jpg);
      background-size: cover;
      background-position: center top;
      background-repeat: no-repeat;
@@ -359,14 +359,14 @@ body{
      transition:0.3s;
 }
  .my-profile-img {
-     background-image: url(./assets/images/CY6xwLA.jpg);
+     background-image: url(./assets/images/A.jpg);
      background-size: cover;
      background-position: center top;
      height: 320px;
      width: 320px;
      border-radius: 50%;
      display: inline-flex;
-     margin-top: -30px;
+     margin-top: 55px;
 }
  .mine p {
      font-size: 1.3em;
@@ -381,7 +381,7 @@ body{
      background-color: #f7f7f7;
 }
  footer.section-footer {
-     background-color: #333;
+     background-color: #000;
      padding: 25px 0px;
      color: #fff;
      text-align: center;
