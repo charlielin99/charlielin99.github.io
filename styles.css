@@ -368,6 +368,36 @@ body{
      display: inline-flex;
      margin-top: 18px;
 }
+/*iphoneX*/
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+      .my-profile-img {
+          margin-left: -12.5px;
+      }
+}
+/*iphone8*/
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 667px) 
+    and (-webkit-device-pixel-ratio : 2) { 
+      .my-profile-img {
+          margin-left: -12.5px;
+      }
+}
+/*Galaxy S5*/
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3){
+     .my-profile-img{
+          margin-left: -17px;
+     }
+}
+/*iphone 5*/
+@media screen and (device-aspect-ratio: 40/71) {
+     .my-profile-img{
+          margin-left: -17px;
+     }
+}
  .mine p {
      font-size: 1.3em;
 }
