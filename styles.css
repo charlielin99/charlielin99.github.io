@@ -10,7 +10,7 @@ body{
      padding-bottom: 2em;
 }
  header img {
-     opacity: 0.75;
+     /*opacity: 0.75;*/
      width: 250%;
      max-width: 300%;
      min-width: 100%;
