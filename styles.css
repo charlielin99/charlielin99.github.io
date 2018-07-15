@@ -108,12 +108,10 @@ body{
      height: 250vh;
 }
  .name h1 {
-     font-family: 'Pacifico', cursive;
+     font-family: 'Montserrat', sans-serif;
      color: #fff !important;
-     word-spacing: 25px;
-     opacity: 0.9;
+     word-spacing: 10px;
      font-size: 3.3em;
-     font-weight: 400 !important;
      display: inline-flex;
 }
  .name h2 {
