@@ -398,7 +398,8 @@ body{
      }
 }
  .mine p {
-     font-size: 1.3em;
+     font-size: 1.32em;
+     font-family: 'Alegreya Sans', sans-serif;
 }
  .mine {
      padding: 17px 0px;
