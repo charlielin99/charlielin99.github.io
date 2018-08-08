@@ -38,7 +38,8 @@ body{
  .name {
      position: absolute;
      top: 50%;
-     left: 36%;
+     left: 50%;
+	 transform:translate(-50%,-50%);
 }
  .alignleft {
      float: left;
@@ -107,13 +108,41 @@ body{
      padding: 200px 0px;
      height: 250vh;
 }
+.topname h1{
+	width:100%;
+	text-align:center;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	font-family: 'Montserrat', sans-serif;
+     color: #fff !important;
+     word-spacing: 10px;
+     font-size: 3.3em;
+     font-weight: 900 !important;
+}
+.topname span{
+	width:100%;
+	text-align:center;
+	position:absolute;
+	top:65%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	font-family: 'Montserrat', sans-serif;
+     color: #fff !important;
+     word-spacing: 10px;
+     font-size: 1.5em;
+     font-weight: 800 !important;
+}
+
  .name h1 {
      font-family: 'Montserrat', sans-serif;
      color: #fff !important;
      word-spacing: 10px;
      font-size: 3.3em;
      font-weight: 900 !important;
-     display: inline-flex;
+     
+	 text-align:center;
 }
  .name h2 {
      display: flex;
@@ -526,4 +555,83 @@ h2{
 }
 .keycolor{
 	text-decoration: underline;
+}
+@media screen and (max-width:800px) {
+	.name {
+     margin-top:200px;
+     margin-left:200px;
+	}
+	.ico{
+		margin-top:190px;
+	}
+}
+@media screen and (max-width:661px) {
+	.name {
+     margin-top:200px;
+     margin-left:160px;
+	}
+	.ico{
+		margin-top:190px;
+	}
+}
+@media screen and (max-width:598px) {
+	.name {
+     margin-top:200px;
+     margin-left:110px;
+	}
+	.ico{
+		margin-top:190px;
+	}
+}
+@media screen and (max-width:562px) {
+	.name {
+     margin-top:200px;
+     margin-left:90px;
+	}
+	.ico{
+		margin-top:190px;
+	}
+}
+@media screen and (min-width:2500px) {
+	.topname span{
+	width:100%;
+	text-align:center;
+	position:absolute;
+	top:60%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	font-family: 'Montserrat', sans-serif;
+     color: #fff !important;
+     word-spacing: 10px;
+     font-size: 2.3em;
+     font-weight: 800 !important;
+}
+}
+@media screen and (max-width:500px) {
+	.topname h1{
+	width:100%;
+	text-align:center;
+	position:absolute;
+	top:30%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	font-family: 'Montserrat', sans-serif;
+     color: #fff !important;
+     word-spacing: 10px;
+     font-size: 3.3em;
+     font-weight: 900 !important;
+}
+.topname span{
+	width:100%;
+	text-align:center;
+	position:absolute;
+	top:55%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	font-family: 'Montserrat', sans-serif;
+     color: #fff !important;
+     word-spacing: 10px;
+     font-size: 2.3em;
+     font-weight: 800 !important;
+}
 }
