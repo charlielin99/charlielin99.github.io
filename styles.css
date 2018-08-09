@@ -129,7 +129,7 @@ body{
 	font-family: 'Montserrat', sans-serif;
      color: #fff !important;
      word-spacing: 10px;
-     font-size: 1.5em;
+     font-size: 1.4em;
      font-weight: 800 !important;
 }
 
@@ -607,12 +607,11 @@ h2{
 }
 @media screen and (max-width:500px) {
 	.topname h1{
-	width:100%;
+	
 	text-align:center;
 	position:absolute;
-	top:30%;
-	left:50%;
-	transform:translate(-50%, -50%);
+	top:40%;
+	left:2%;
 	font-family: 'Montserrat', sans-serif;
      color: #fff !important;
      word-spacing: 10px;
@@ -623,13 +622,13 @@ h2{
 	width:100%;
 	text-align:center;
 	position:absolute;
-	top:55%;
+	top:60%;
 	left:50%;
 	transform:translate(-50%, -50%);
 	font-family: 'Montserrat', sans-serif;
      color: #fff !important;
      word-spacing: 10px;
-     font-size: 2.3em;
+     font-size: 1.1em;
      font-weight: 800 !important;
 }
 }
