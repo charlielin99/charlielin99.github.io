@@ -386,7 +386,7 @@ body{
  .my-profile-img {
      background-image: url(./assets/images/Charlie.jpg);
      background-size: cover;
-     background-position: center top;
+     background-position: left top;
      height: 370px;
      width: 370px;
      border-radius: 50%;
